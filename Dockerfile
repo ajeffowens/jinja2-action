@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM registry.sas.com/infra-dev-pub/python:3.11
 
 WORKDIR /app
 ENTRYPOINT ["/app/entrypoint.py"]
